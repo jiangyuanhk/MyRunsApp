@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyRuns6</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="summary_unit_preference">Select the units in which you would like to see distance values</string>
+    <string name="title_comment">Comment</string>
+    <string name="title_class_homepage">Class homepage</string>
+    <string name="title_unit_preference">Unit Preference</string>
+    <string name="summary_privacy_setting">Posting your records anonymously</string>
+    <string name="misc">Misc.</string>
+    <string name="summary_class_homepage">http://www.cs.dartmouth.edu/~campbell</string>
+    <string name="additional_settings">Additional settings</string>
+    <string name="dialog_title_comment">Comment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_read">Read Type:</string>
+    <string name="activity_type">Activity Type:</string>
+    <string name="course_suggestion">Any suggestion to this course</string>
+    <string name="dialog_title_unit_preference">Unit Preference</string>
+    <string name="ui_button_start">START</string>
+    <string name="ui_button_sync">SYNC</string>
+    <string name="account_preferences">Account Preferences</string>
+    <string name="privacy_setting">Privacy setting</string>
+
+    <string-array name="input_array">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="activity_array">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="start_array">
+        <item>Date</item>
+        <item>Time</item>
+        <item>Duration</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heartrate</item>
+        <item>Comment</item>
+    </string-array>
+
+    <string name="title_activity_list_view">MyRuns2</string>
+    <string name="title_activity_profile">MyRuns2</string>
+    <string name="button_save">SAVE</string>
+    <string name="action_delete">DELETE</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="title_user_profile">User Profile</string>
+    <string name="summary_user_profile">Names, Email, Classes, etc</string>
+    <string name="profile_photo">Profile photo:</string>
+    <string name="name">Name:</string>
+    <string name="name_info">Your name here</string>
+    <string name="phone">Phone:</string>
+    <string name="email">Email:</string>
+    <string name="email_info">Your email here</string>
+    <string name="phone_info">Your phone here</string>
+    <string name="major_info">Your major here</string>
+    <string name="major">Major:</string>
+    <string name="class_info">e.g. 2012</string>
+    <string name="class_num">Class:</string>
+    <string name="save_button">SAVE</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="gender">Gender:</string>
+    <string name="female_button">Female</string>
+    <string name="male_button">Male</string>
+    <string name="change_button">CHANGE</string>
+    <string name="imageProfile">Your profile photo</string>
+    <string name="toast_cancel_text">Cancelled</string>
+    <string name="toast_save_text">Saved</string>
+    <string name="profile_photo_file">profile_photo.png</string>
+    <string name="preference_name">My_shared_preferences</string>
+    <string name="preference_key_profile_email">profile_email</string>
+    <string name="preference_key_profile_name">profile_name</string>
+    <string name="preference_key_profile_gender">profile_gender</string>
+    <string name="preference_key_profile_major">profile_major</string>
+    <string name="preference_key_profile_phone">profile_phone</string>
+    <string name="preference_key_profile_class">profile_class</string>
+    <string name="dialog_fragment_tag">dialog_fragment_tag_general</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="ui_button_save">Save</string>
+    <string name="ui_button_cancel">Cancel</string>
+    <string name="alert_dialog_cancel">CANCEL</string>
+    <string name="title_activity_blank">Map</string>
+    <string name="dateTime">Date and Time</string>
+    <string name="Duration">Duration (Minitues):</string>
+    <string name="Distance">Distance    (Miles):</string>
+    <string name="Calories">Calories:</string>
+    <string name="Aveheart">Average Heart Rate (BPM):</string>
+    <string name="Comment">Comment:</string>
+    <string name="service_content_label">MyRuns</string>
+    <string name="service_content">Recording your path now</string>
+    <string name="Photo">Select profile image</string>
+    <string name="Hint">How did it go? Enter Notes here.</string>
+    <string name="title_activity_history_item">HistoryItemActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="server_addr">http://192.168.1.107:8888</string>
+    <string name="title_activity_maps_activity2">Map</string>
+
+</resources>

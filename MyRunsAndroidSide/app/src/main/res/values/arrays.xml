@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_list_preference">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="entryvalues_list_preference">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+
+    <string-array name="ui_photo_items">
+        <item>Take from camera</item>
+        <item>Select from album</item>
+    </string-array>
+
+</resources>

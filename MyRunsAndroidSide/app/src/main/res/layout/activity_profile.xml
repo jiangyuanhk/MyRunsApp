@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_margin="5dp"
+            android:text="@string/profile_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/imageProfile"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+
+                <requestFocus />
+            </ImageView>
+
+            <Button
+                android:id="@+id/change_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:onClick="onChangePhotoClicked"
+                android:text="@string/change_button" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:text="@string/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/name_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/name_info"
+            android:inputType="textCapWords"
+            android:singleLine="true" >
+        </EditText>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:text="@string/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/email_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/email_info"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" >
+        </EditText>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:text="@string/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/phone_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/phone_info"
+            android:inputType="phone"
+            android:singleLine="true" >
+        </EditText>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:text="@string/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/female_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/female_button" />
+
+            <RadioButton
+                android:id="@+id/male_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male_button" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:text="@string/class_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/class_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/class_info"
+            android:inputType="number"
+            android:singleLine="true" >
+        </EditText>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:text="@string/major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/major_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/major_info"
+            android:inputType="textCapWords"
+            android:singleLine="true" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:onClick="onSaveClicked"
+                android:text="@string/save_button" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:onClick="onCancelClicked"
+                android:text="@string/cancel_button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

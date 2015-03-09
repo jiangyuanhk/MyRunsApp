@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/classes-fb4cb67f89958b4f68b43461e3338760ab1e3160.jar" />
+    </item>
+    <item
+        jar="/Users/yuanjiang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-7d58a9b58a55dc6dd9f6caa5f7451bced1d3fb6b.jar" />
+    </item>
+    <item
+        jar="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/classes-2fb44dd5e8643a87f17d7a55b1ecb500b13b9987.jar" />
+    </item>
+    <item
+        jar="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/classes-cab3125d1637cfe384023f2f57f5731cd50697b3.jar" />
+    </item>
+    <item
+        jar="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/classes-53d9cff5a7a5dbcb722bdef7652e333b9b5e7840.jar" />
+    </item>
+    <item
+        jar="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8a9a79818087f62457d3c681304c854ef33688d8.jar" />
+    </item>
+    <item
+        jar="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/yuanjiang/Desktop/Lab6_submission/MyRuns6/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-1073d225c11ac74f537977c73a670c29934fe479.jar" />
+    </item>
+
+</items>
